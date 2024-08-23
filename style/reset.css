@@ -1,0 +1,45 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+/* Ajustements typographiques : 1. Ajouter une hauteur de ligne accessible 
+2. Améliorer le rendu du texte */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Améliorer les éléments multimédias par défaut */
+img, 
+picture, 
+video, 
+canvas, 
+svg {
+    display: block; /* Empêche ces éléments de se comporter comme du texte en ligne */
+    max-width: 100%; /* Empêche ces éléments de déborder de leur conteneur */
+}
+
+/* Supprimer les styles typographiques intégrés aux formulaires */
+input, 
+button, 
+textarea, 
+select {
+    font: inherit; /* Utilise la même police que celle définie pour l'élément parent */
+}
+
+/* Éviter les débordements de texte */
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    overflow-wrap: break-word; /* Empêche le texte de déborder de son conteneur */
+}

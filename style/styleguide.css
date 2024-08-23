@@ -1,0 +1,38 @@
+:root {
+    --text-preset-1-font-family: "Figtree", Helvetica;
+    --text-preset-1-font-weight: 800;
+    --text-preset-1-font-size: 24px;
+    --text-preset-1-letter-spacing: 0px;
+    --text-preset-1-line-height: 150%;
+    --text-preset-1-font-style: normal;
+    --text-preset-2-font-family: "Figtree", Helvetica;
+    --text-preset-2-font-weight: 500;
+    --text-preset-2-font-size: 16px;
+    --text-preset-2-letter-spacing: 0px;
+    --text-preset-2-line-height: 150%;
+    --text-preset-2-font-style: normal;
+    --text-preset-3-font-family: "Figtree", Helvetica;
+    --text-preset-3-font-weight: 500;
+    --text-preset-3-font-size: 14px;
+    --text-preset-3-letter-spacing: 0px;
+    --text-preset-3-line-height: 150%;
+    --text-preset-3-font-style: normal;
+    --text-preset-3-bold-font-family: "Figtree", Helvetica;
+    --text-preset-3-bold-font-weight: 800;
+    --text-preset-3-bold-font-size: 14px;
+    --text-preset-3-bold-letter-spacing: 0px;
+    --text-preset-3-bold-line-height: 150%;
+    --text-preset-3-bold-font-style: normal;
+    --variable-collection-color-yellow: rgba(244, 208, 78, 1);
+    --variable-collection-color-gray-950: rgba(17, 17, 17, 1);
+    --variable-collection-color-gray-500: rgba(107, 107, 107, 1);
+    --variable-collection-color-white: rgba(255, 255, 255, 1);
+    --variable-collection-spacing-50: 4px;
+    --variable-collection-spacing-100: 8px;
+    --variable-collection-spacing-150: 12px;
+    --variable-collection-spacing-200: 24px;
+    --variable-collection-font-size-text-preset-1: 24px;
+    --variable-collection-font-size-text-preset-2: 16px;
+    --variable-collection-font-size-text-preset-3: 14px;
+  }
+  
