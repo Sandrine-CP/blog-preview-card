@@ -4,15 +4,26 @@
 
 body {
     background-color: var(--variable-collection-color-yellow);
-}
-
-.card-container {
-    padding: 156px 24px 155px 24px;
-    width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 375px;
+    padding: 156px 24px;
+
+    @media screen and (min-width: 376px) {
+    max-width: 80%;
+    }
+
 }
 
 .card {
@@ -23,10 +34,15 @@ body {
     align-items: flex-start;
     
     background-color: var(--variable-collection-color-white);
-    width: 327px;
+    width: 100%;
+    max-width: 327px;
     border-radius: 20px;
     border: 1px solid rgba(17, 17, 17, 1);
     box-shadow: 8px 8px 0 0 rgba(17, 17, 17, 1);
+
+    @media screen and (min-width:376px) {
+        width: 384px;
+    }
 }
 
 .blog-image img {
