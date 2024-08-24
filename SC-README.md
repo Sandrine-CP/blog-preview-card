@@ -47,7 +47,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 Start with structuring html content with tags for better visibility
 Adding html elements such as svg, tags img, h1, h2...attributes and classes.
-Add stylesheet to manage css reset
+Add stylesheet to manage css reset, styleguide and index css
+In index css files : work on mobile version first
 
 ### Built with
 
