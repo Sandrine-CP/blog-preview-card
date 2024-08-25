@@ -19,6 +19,7 @@ body {
     width: 90%;
     max-width: 375px;
     padding: 156px 24px;
+    margin: auto;
 
     @media screen and (min-width: 376px) {
     max-width: 80%;
@@ -37,7 +38,7 @@ body {
     width: 100%;
     max-width: 327px;
     border-radius: 20px;
-    border: 1px solid rgba(17, 17, 17, 1);
+    border: 1px solid var(--color-gray-950, #111);
     box-shadow: 8px 8px 0 0 rgba(17, 17, 17, 1);
 
     @media screen and (min-width:376px) {
@@ -66,7 +67,8 @@ body {
     }
 
     .title {
-        font-size: var(--text-preset-1-font-size);
+        font-size: 22px;
+        white-space: nowrap;
     }
     .title:hover {
         color: var(--variable-collection-color-yellow);

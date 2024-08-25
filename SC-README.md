@@ -12,9 +12,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -28,15 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](design/blog-preview-card-desktop.png)
+![](design/blog-preview-card-mobile.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -45,71 +37,39 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-Start with structuring html content with tags for better visibility
-Adding html elements such as svg, tags img, h1, h2...attributes and classes.
-Add stylesheet to manage css reset, styleguide and index css
-In index css files : work on mobile version first
+1 Start with structuring html content with tags for better visibility
+2 Adding html elements such as svg, tags img, h1, h2...attributes and classes.
+3 Added stylesheet to manage css reset, styleguide extract from figma file in dev mode, and index css
+4 index css file : work on mobile version first
+5 Added media queries for desktop version
+6 Added hover and focus elements
+7 last adjustments comparing design target and my version
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Figma pro version with dev mode
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Figma dev mode helped me a lot to build the html structure and to work on the css.
+I used some tips from a feedback on my previous challenge such as css reset file. 
+I also created a separate css file for the styleguide with variable which soudend like a very god idea. Unfortunately, in my index.css I couldn't have the full list of variables, even with @ import the file : I couldn't solve this even after installing css intelissense extension and reboot VS Code, so I opened the styleguide file to copy-paste the needed variables : any tip on this would be much appreciated.
+Maybe Figma helped me too much, I feel like I didn't code all by myself even if I had to do some adjustments.
+I had hard time with the position of the card to make it centered in both versions mobile and desktop. I tried first with Figma's elements such as padding but didn't work well, not responsive at all. So I tried with percentages ans max width which seems better.
+I also had some difficulties with the .title (HTLM&CSS foundations text) in mobile version to make it wrap and I discovered the white-spacing nowrap. It works, combined with font-size but I am not sure it is the best option.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Would like to continue focusing on responsive design with media queries.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
