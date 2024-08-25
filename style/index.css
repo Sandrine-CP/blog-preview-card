@@ -63,15 +63,22 @@ body {
         padding: var(--variable-collection-spacing-100);
         width: 90px;
         text-align: center;
-
     }
+
     .title {
         font-size: var(--text-preset-1-font-size);
     }
+    .title:hover {
+        color: var(--variable-collection-color-yellow);
+        cursor: pointer;
+    }
     .description {
         color: var(--variable-collection-color-gray-500);
+        
     }
 }
+
+
 
 .author-container {
     display: flex;
